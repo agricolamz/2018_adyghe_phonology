@@ -1,0 +1,17 @@
+\usepackage{fontspec}
+\defaultfontfeatures{Ligatures={TeX},Renderer=Basic}
+\setmainfont[Ligatures={TeX,Historic},
+SmallCapsFont={Brill},
+SmallCapsFeatures={Letters=SmallCaps}]{Brill} 
+\newfontfamily{\cyrillicfonttt}{Brill}
+\usepackage{indentfirst}
+\setlength{\parindent}{15pt}
+\setlength{\parskip}{0em}
+\usepackage{booktabs}
+\usepackage{amsthm}
+\makeatletter
+\def\thm@space@setup{%
+  \thm@preskip=8pt plus 2pt minus 4pt
+  \thm@postskip=\thm@preskip
+}
+\makeatother

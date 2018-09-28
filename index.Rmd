@@ -1,0 +1,16 @@
+--- 
+title: "Фонология адыгских языков"
+author: "Г. А. Мороз"
+date: "2018"
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+documentclass: book
+bibliography: bibliography.bib
+biblio-style: apalike
+link-citations: yes
+lang: ru
+---
+
+`r if (knitr:::is_html_output()) '
+# {-}
+'`

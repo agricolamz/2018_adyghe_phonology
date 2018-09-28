@@ -1,0 +1,17 @@
+bookdown::gitbook:
+  css: style.css
+  config:
+    toc:
+      collapse: section
+      before: |
+        <li><a href="./">Фонология адыгских языков</a></li>
+    edit: https://github.com/agricolamz/2018_adyghe_phonology/edit/master/%s
+    download: ["pdf", "epub"]
+    sharing: null
+bookdown::pdf_book:
+  includes:
+    in_header: preamble.tex
+  latex_engine: xelatex
+  citation_package: natbib
+  keep_tex: yes
+bookdown::epub_book: default

@@ -1,0 +1,9 @@
+book_filename: "2018_moroz_Adyghe_phonology"
+language:
+  label:
+    fig: 'Рисунок '
+    tab: 'Таблица '
+  ui:
+    chapter_name: ""
+delete_merged_file: true
+output_dir: "docs"
